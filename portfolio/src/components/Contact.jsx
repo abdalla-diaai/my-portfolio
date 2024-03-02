@@ -1,5 +1,9 @@
-function Contact() {
+import React from "react";
 
+function Contact() {
+return (
+    <h4>abdalla.diaai@outlook.com</h4>
+)
 };
 
 
