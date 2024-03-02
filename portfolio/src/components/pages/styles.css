@@ -1,0 +1,14 @@
+#home, #contact-us {
+    padding: 100px;
+}
+
+.home-btn {
+    margin-inline-end: 10px;
+}
+
+.form {
+    padding: 50px;
+}
+.form-control {
+    margin-block-end: 10px;
+}
