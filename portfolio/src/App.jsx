@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Contact from './components/Contact'
+import Contact from './components/pages/Contact'
 import Header from './components/Header'
-import Home from './components/Home'
-import Project from './components/Project'
-import ProjectGallery from './components/ProjectGallery'
+import Home from './components/pages/Home'
+import Project from './components/pages/Project'
+import ProjectGallery from './components/pages/ProjectGallery'
 
-function App() {
+export default function App() {
   return (
     <>
        <Router>
@@ -30,4 +30,3 @@ function App() {
   )
 }
 
-export default App

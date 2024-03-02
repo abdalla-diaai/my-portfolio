@@ -1,12 +1,10 @@
 import React from "react";
 
-function Contact() {
+export default function Contact() {
 return (
     <h4>abdalla.diaai@outlook.com</h4>
-)
+);
 };
 
 
 
-
-export default Contact;
