@@ -1,40 +1,32 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Contact from './components/Contact'
+import Contact from './components/pages/Contact'
 import Header from './components/Header'
-import Home from './components/Home'
-import Project from './components/Project'
-import ProjectGallery from './components/ProjectGallery'
+import Home from './components/pages/Home'
+import Project from './components/pages/Project'
+import ProjectGallery from './components/pages/ProjectGallery'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+       <Router>
+       <Header />
+      {/* Wrap Route elements in a Routes component */}
+      <Routes>
+        {/* Define routes using the Route component to render different page components at different paths */}
+        {/* Define a default route that will render the Home component */}
+        <Route path="/" element={<Home />} />
+        <Route path="project" element={<Project />} />
+        <Route path="projectGallery" element={<ProjectGallery />} />
+        {/* Define a route that will have descendant routes */}
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+    </Router>
     </>
   )
 }
 
-export default App
