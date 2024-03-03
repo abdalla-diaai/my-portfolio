@@ -7,7 +7,7 @@ export default function Contact() {
     name: "",
     email: "",
     message: "",
-    success: ""
+    success: "",
   });
   const handleInputChange = (event) => {
     // Getting the value and name of the input which triggered the change
@@ -28,14 +28,16 @@ export default function Contact() {
       name: "",
       email: "",
       message: "",
-      success:"Message Sent Successfully!"
+      success: "Message Sent Successfully!",
     });
   };
 
   // Notice how each input has a `value`, `name`, and `onChange` prop
   return (
     <Container id="contact-us">
-    <div className="alert alert-light" role="alert">{formData.success}</div>
+      <div className="alert alert-light" role="alert">
+        {formData.success}
+      </div>
       <h1 className="display-4">Contact Us</h1>
       <p className="lead">
         Let’s get this conversation started. Tell us a bit about yourself, and
