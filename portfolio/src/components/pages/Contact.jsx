@@ -7,8 +7,8 @@ export default function Contact() {
     name: "",
     email: "",
     message: "",
+    success: ""
   });
-
   const handleInputChange = (event) => {
     // Getting the value and name of the input which triggered the change
     const { name, value } = event.target;
@@ -23,18 +23,19 @@ export default function Contact() {
   const handleFormSubmit = (event) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
-
-    // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
+    // Clear `formData.firstName` and `formData.lastName`, clearing the inputs
     setFormData({
       name: "",
       email: "",
       message: "",
+      success:"Message Sent Successfully!"
     });
   };
 
   // Notice how each input has a `value`, `name`, and `onChange` prop
   return (
     <Container id="contact-us">
+    <div className="alert alert-light" role="alert">{formData.success}</div>
       <h1 className="display-4">Contact Us</h1>
       <p className="lead">
         Let’s get this conversation started. Tell us a bit about yourself, and
@@ -59,7 +60,7 @@ export default function Contact() {
         />
         <textarea
           className="form-control"
-          value={formData.email}
+          value={formData.message}
           name="message"
           onChange={handleInputChange}
           type="textarea"
@@ -75,8 +76,11 @@ export default function Contact() {
       </form>
       <p className="lead">
         By submitting my personal data, I consent to Zendesk collecting,
-        processing, and storing my information in accordance with the <a href="https://www.zendesk.co.uk/company/agreements-and-terms/privacy-notice/">Zendesk
-        Privacy Notice</a>.
+        processing, and storing my information in accordance with the{" "}
+        <a href="https://www.zendesk.co.uk/company/agreements-and-terms/privacy-notice/">
+          Zendesk Privacy Notice
+        </a>
+        .
       </p>
     </Container>
   );
