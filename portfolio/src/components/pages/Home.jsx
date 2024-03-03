@@ -30,7 +30,7 @@ export default function Home() {
           href="mailto:abdalla.diaai@outlook.com"
           role="button"
         >
-          <i class="fa-regular fa-envelope"></i>
+          <i className="fa-regular fa-envelope"></i>
         </a>
       </p>
     </Container>
