@@ -16,3 +16,7 @@
 .card {
     padding: 20px;
 }
+
+.project-image {
+    max-width: 50%;
+}
