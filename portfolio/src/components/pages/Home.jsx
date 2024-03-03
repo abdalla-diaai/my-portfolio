@@ -4,11 +4,13 @@ import "./styles.css";
 export default function Home() {
   return (
     <Container id="home">
-      <h1 className="display-4">Hi there, I am Abdalla Diaai!</h1>
+      <h1 className="display-4">
+        Hi there, I am <strong>Abdalla Diaai</strong>....
+      </h1>
       <p className="lead">
         I am passionate about solving problems that face scientists in
-        scientific research through developing user friendly tools that minize
-        waste and improve efficiency.
+        scientific research through developing user riendly <b>web based tools</b> that
+        facilitate experimental design and improve efficiency.
       </p>
       <p className="lead">
         <a

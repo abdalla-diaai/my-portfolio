@@ -1,18 +1,39 @@
-#home, #contact-us {
-    padding: 100px;
+#home,
+#contact-us,
+#projects-container {
+  padding: 70px;
 }
 
 .home-btn {
-    margin-inline-end: 10px;
-}
-
-.form {
-    padding: 50px;
-}
-.form-control {
-    margin-block-end: 10px;
+  margin-inline-end: 10px;
 }
 
 .card {
-    padding: 20px;
+  padding: 20px;
+  margin-block-end: 20px;
+}
+
+.card-text {
+  text-align: left;
+}
+.project-image {
+  max-width: 60%;
+  align-self: center;
+}
+
+strong {
+  font-size: 5rem;
+  color: #f05039;
+}
+
+b {
+  color: #e57a77;
+  font-size: 30px;
+}
+
+.form {
+  padding: 50px;
+}
+.form-control {
+  margin-block-end: 10px;
 }

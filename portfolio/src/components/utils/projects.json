@@ -1,14 +1,18 @@
+
+
 [
   {
     "id": 1,
     "title": "CalEvent",
+    "description": "An app to search event types based on user input. Including a suggested events feature, google search feature and extra joke generator for fun.",
     "repoUrl": "https://github.com/abdalla-diaai/calevent",
     "pageUrl": "https://abdalla-diaai.github.io/calevent/",
-    "image": ""
+    "image": "https://api.apify.com/v2/key-value-stores/hQxBDhqBfMtbO2a04/records/abdalla-diaai.github.io-scroll_original"
   },
   {
     "id": 2,
     "title": "Weather Dashboard",
+    "description": "A simple weather dashboard to fetch 5 day weather forecast from open weather API.",
     "repoUrl": "https://github.com/abdalla-diaai/open-weather-dashboard",
     "pageUrl": "https://abdalla-diaai.github.io/open-weather-dashboard/",
     "image": ""
@@ -16,6 +20,7 @@
   {
     "id": 3,
     "title": "Coding Quiz",
+    "description":"A simple coding quiz website where the user is presented with code related questions that need to be answered with in the time limit.",
     "repoUrl": "https://github.com/abdalla-diaai/coding-quiz",
     "pageUrl": "https://abdalla-diaai.github.io/coding-quiz/",
     "image": ""
