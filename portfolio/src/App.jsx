@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
 import Home from "./components/pages/Home";
+import Resume from "./components/pages/Resume";
 import ProjectGallery from "./components/pages/ProjectGallery";
 
 export default function App() {
@@ -16,6 +17,8 @@ export default function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="projectGallery" element={<ProjectGallery />} />
+          <Route path="resume" element={<Resume />} />
+
           {/* Define a route that will have descendant routes */}
           <Route path="contact" element={<Contact />} />
         </Routes>

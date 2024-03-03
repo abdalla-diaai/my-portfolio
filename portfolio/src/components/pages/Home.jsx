@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import "./styles.css";
+
 export default function Home() {
   return (
     <Container id="home">
@@ -9,8 +10,9 @@ export default function Home() {
       </h1>
       <p className="lead">
         I am passionate about solving problems that face scientists in
-        scientific research through developing user riendly <b>web based tools</b> that
-        facilitate experimental design and improve efficiency.
+        scientific research through developing user riendly{" "}
+        <b>web based tools</b> that facilitate experimental design and improve
+        efficiency.
       </p>
       <p className="lead">
         <a
