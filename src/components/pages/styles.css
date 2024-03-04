@@ -5,12 +5,12 @@
 }
 
 #home {
-    margin-block-end: 300px;
+  margin-block-end: 300px;
 }
 
 .logo-name {
-    color: #f05039;
-    font-family:Arial, Helvetica, sans-serif;
+  color: #f05039;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home-btn {
@@ -37,8 +37,8 @@ h2 {
 }
 
 #resume {
-    padding: 50px;
-    margin: 50px
+  padding: 50px;
+  margin: 50px;
 }
 strong {
   font-size: 5rem;
@@ -59,16 +59,27 @@ b {
 }
 
 #footer {
-   text-align: center;
+  text-align: center;
 }
 
 #social-icons {
-    justify-content: center;
+  justify-content: center;
 }
 
 /* to adjust height and width of pdf files */
 .react-pdf__Page__canvas {
-    margin: 0 auto;
-    width: 80% !important;
-    height: 100% !important;
-} 
+  margin: 0 auto;
+  width: 80% !important;
+  height: 100% !important;
+}
+
+#modal-box {
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  text-align: center;
+  width: 50%;
+  height: min-content;
+  inset: 300px !important;
+}

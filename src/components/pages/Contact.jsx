@@ -1,15 +1,29 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
+import Modal from "react-modal";
+
 import "./styles.css";
 
 export default function Contact() {
+  Modal.setAppElement(document.getElementById("root"));
+
   // Setting initial state to an object
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
-    success: "",
   });
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
   const handleInputChange = (event) => {
     // Getting the value and name of the input which triggered the change
     const { name, value } = event.target;
@@ -29,8 +43,8 @@ export default function Contact() {
       name: "",
       email: "",
       message: "",
-      success: "Message Sent Successfully!",
     });
+    handleOpen();
   };
 
   // Notice how each input has a `value`, `name`, and `onChange` prop
@@ -74,16 +88,20 @@ export default function Contact() {
           Send
         </button>
       </form>
-      <div className="alert alert-light" role="alert">
-        {formData.success}
-      </div>
+      <Modal isOpen={open} id="modal-box">
+        <div className="modal-body">
+          <h3>Message Sent Successfully!</h3>
+        </div>
+        <button className="btn btn-dark btn-sm home-btn" onClick={handleClose}>
+          Close
+        </button>
+      </Modal>
       <p className="lead">
         By submitting my personal data, I consent to Zendesk collecting,
         processing, and storing my information in accordance with the{" "}
         <a href="https://www.zendesk.co.uk/company/agreements-and-terms/privacy-notice/">
-          Zendesk Privacy Notice
+          Zendesk Privacy Notice.
         </a>
-        .
       </p>
     </Container>
   );

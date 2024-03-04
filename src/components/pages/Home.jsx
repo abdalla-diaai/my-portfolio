@@ -10,7 +10,7 @@ export default function Home() {
       </h1>
       <p className="lead">
         I am passionate about solving problems that face scientists in
-        scientific research through developing user riendly{" "}
+        scientific research through developing user friendly
         <b>web based tools</b> that facilitate experimental design and improve
         efficiency.
       </p>
