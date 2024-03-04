@@ -19,7 +19,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="projectGallery" element={<ProjectGallery />} />
           <Route path="resume" element={<Resume />} />
-
           {/* Define a route that will have descendant routes */}
           <Route path="contact" element={<Contact />} />
         </Routes>
