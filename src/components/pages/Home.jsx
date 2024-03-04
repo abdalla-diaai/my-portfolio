@@ -11,8 +11,8 @@ export default function Home() {
       <p className="lead">
         I am passionate about solving problems that face scientists in
         scientific research through developing user friendly{" "}
-        <b>web based tools</b> that facilitate experimental design and improve
-        efficiency.
+        <b>web based tools</b> that can facilitate experimental design and improve
+        efficiency. If you have an idea or need help with a project, drop me a message.
       </p>
       <p className="lead">
         <a

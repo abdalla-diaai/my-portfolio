@@ -1,29 +1,24 @@
+.logo-icon {
+  width: 50px;
+  height: 50px;
+}
+
 #home,
 #contact-us,
 #projects-container {
   padding: 70px;
 }
 
-#home {
-  margin-block-end: 300px;
-}
-
-.logo-name {
-  color: #f05039;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .home-btn {
   margin-inline-end: 10px;
 }
 
+#project-heading {
+    text-align: center;
+}
 .card {
   padding: 20px;
   margin-block-end: 20px;
-}
-
-.card-text {
-  text-align: left;
 }
 
 .project-image {
@@ -59,11 +54,8 @@ b {
 }
 
 #footer {
-  text-align: center;
-}
-
-#social-icons {
   justify-content: center;
+  row-gap: 10px;
 }
 
 /* to adjust height and width of pdf files */
@@ -82,4 +74,8 @@ b {
   width: 50%;
   height: min-content;
   inset: 300px !important;
+}
+
+a {
+  color: #078080;
 }

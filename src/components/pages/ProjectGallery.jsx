@@ -1,12 +1,12 @@
 import React from "react";
 import Project from "./Project";
 import projects from "../utils/projects.json";
-import weather from "../../assets/weather-dashboard.png";
-import quiz from "../../assets/coding-quiz.png";
+import Footer from "../Footer";
 
 export default function ProjectGallery() {
   return (
     <div className="container" id="projects-container">
+        <h3 id="project-heading">Project Examples</h3>
       <Project
         title={projects[0].title}
         description={projects[0].description}
@@ -19,15 +19,16 @@ export default function ProjectGallery() {
         description={projects[1].description}
         repoUrl={projects[1].repoUrl}
         pageUrl={projects[1].pageUrl}
-        image={weather}
+        image={projects[1].image}
       />
       <Project
         title={projects[2].title}
         description={projects[2].description}
         repoUrl={projects[2].repoUrl}
         pageUrl={projects[2].pageUrl}
-        image={quiz}
+        image={projects[2].image}
       />
+      <Footer />
     </div>
   );
 }

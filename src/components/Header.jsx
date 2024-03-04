@@ -7,18 +7,15 @@ import logo from "../assets/letter-a.png";
 
 export default function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar id="header-navbar" expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="">
           {" "}
           <img
             src={logo}
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt=""
+            className="d-inline-block align-top logo-icon"
+            alt="website logo letter A"
           />
-          <span className="logo-name">bdalla</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

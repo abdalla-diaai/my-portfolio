@@ -16,11 +16,11 @@ export default function Project(props) {
             GitHub
           </a>
           <a
-            className="btn btn-secondary btn-sm home-btn"
+            className="btn btn-info btn-sm home-btn"
             href={props.pageUrl}
             role="button"
           >
-            {props.title}
+            Go To Website
           </a>
         </div>
       </div>

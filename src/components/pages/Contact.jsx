@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Modal from "react-modal";
+import Footer from "../Footer";
 
 import "./styles.css";
 
@@ -103,6 +104,7 @@ export default function Contact() {
           Zendesk Privacy Notice.
         </a>
       </p>
+      <Footer />
     </Container>
   );
 }
