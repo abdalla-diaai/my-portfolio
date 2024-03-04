@@ -4,7 +4,7 @@ import resume from "../../assets/myResume.pdf";
 
 export default function Resume() {
   return (
-    <div id="resume" className="card">
+    <div id="resume" className="container">
       <PDFViewer pdf={resume} options={{ workerSrc: "/pdf.worker.js" }} />
     </div>
   );

@@ -6,13 +6,14 @@ export default function Footer() {
     <div id="footer" className="container">
       <div className="row">
         <div className="col-lg-4 col-md-5 col-sm-12 footer-cols footer-heading">
-        <img
+          <img
             src={logo}
             width="30"
             height="30"
             className="d-inline-block align-top"
             alt=""
-          /><span className="logo-name">bdalla</span>
+          />
+          <span className="logo-name">bdalla</span>
           <p id="contact-me">
             <i className="fa-solid fa-envelope" />{" "}
             <a href="mailto:hello@tuxedo.com" id="email">

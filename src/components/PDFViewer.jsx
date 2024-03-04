@@ -9,9 +9,16 @@ export default function PDFViewer({ pdf }) {
   return (
     <Document file={pdf}>
       {/* remove render text and leave pdf only */}
+      <div className="card">
+      <Page pageNumber={3} renderTextLayer={false} />
+
+      </div>
+      <div className="card">
+
       <Page pageNumber={1} renderTextLayer={false} />
       <Page pageNumber={2} renderTextLayer={false} />
-      <Page pageNumber={3} renderTextLayer={false} />
+      </div>
+
     </Document>
   );
 }
