@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import "./styles.css";
+
 export default function Contact() {
   // Setting initial state to an object
   const [formData, setFormData] = useState({
@@ -35,9 +36,6 @@ export default function Contact() {
   // Notice how each input has a `value`, `name`, and `onChange` prop
   return (
     <Container id="contact-us">
-      <div className="alert alert-light" role="alert">
-        {formData.success}
-      </div>
       <h1 className="display-4">Contact Us</h1>
       <p className="lead">
         Let’s get this conversation started. Tell us a bit about yourself, and
@@ -76,6 +74,9 @@ export default function Contact() {
           Send
         </button>
       </form>
+      <div className="alert alert-light" role="alert">
+        {formData.success}
+      </div>
       <p className="lead">
         By submitting my personal data, I consent to Zendesk collecting,
         processing, and storing my information in accordance with the{" "}

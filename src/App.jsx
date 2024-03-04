@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import Resume from "./components/pages/Resume";
 import ProjectGallery from "./components/pages/ProjectGallery";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

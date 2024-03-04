@@ -13,14 +13,14 @@ export default function Project(props) {
             href={props.repoUrl}
             role="button"
           >
-            GitHub Repository
+            GitHub
           </a>
           <a
             className="btn btn-secondary btn-sm home-btn"
             href={props.pageUrl}
             role="button"
           >
-            {props.title} Page
+            {props.title}
           </a>
         </div>
       </div>
