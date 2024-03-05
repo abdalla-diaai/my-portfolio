@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import Resume from "./components/pages/Resume";
 import ProjectGallery from "./components/pages/ProjectGallery";
+import "./components/pages/styles.css"
 
 export default function App() {
   return (

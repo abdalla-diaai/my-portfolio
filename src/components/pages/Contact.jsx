@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Modal from "react-modal";
 import Footer from "../Footer";
-
 import "./styles.css";
 
 export default function Contact() {
@@ -91,7 +90,7 @@ export default function Contact() {
       </form>
       <Modal isOpen={open} id="modal-box">
         <div className="modal-body">
-          <h3>Message Sent Successfully!</h3>
+          <h3>I will read your message carefully and get back to you within 48 hours.</h3>
         </div>
         <button className="btn btn-dark btn-sm home-btn" onClick={handleClose}>
           Close

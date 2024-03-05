@@ -1,18 +1,23 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import headshot from "../../assets/headshot.jpg";
 import "./styles.css";
 
 export default function Home() {
   return (
-    <Container id="home">
+    <div id="home" className="container">
+      <div id="img-section" className="col-sm-12">
+        <img id="headshot-img" src={headshot} alt="" />
+      </div>
       <h1 className="display-4">
         Hi there, I am <strong>Abdalla Diaai</strong>....
       </h1>
       <p className="lead">
         I am passionate about solving problems that face scientists in
         scientific research through developing user friendly{" "}
-        <b>web based tools</b> that can facilitate experimental design and improve
-        efficiency. If you have an idea or need help with a project, drop me a message.
+        <b>web based tools</b> that can facilitate experimental design and
+        improve efficiency. If you have an idea or need help with a project,
+        drop me a message.
       </p>
       <p className="lead">
         <a
@@ -37,6 +42,6 @@ export default function Home() {
           <i className="fa-regular fa-envelope"></i>
         </a>
       </p>
-    </Container>
+    </div>
   );
 }
