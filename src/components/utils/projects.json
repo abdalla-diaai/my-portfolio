@@ -13,7 +13,7 @@
     "description": "A simple weather dashboard app to fetch 5 day weather forecast from open weather API.",
     "repoUrl": "https://github.com/abdalla-diaai/open-weather-dashboard",
     "pageUrl": "https://abdalla-diaai.github.io/open-weather-dashboard/",
-    "image": "../../src/assets/weather.gif"
+    "image": "../../src/assets/weather.png"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "description": "A simple coding quiz app where the user is presented with code related questions that need to be answered with in the time limit.",
     "repoUrl": "https://github.com/abdalla-diaai/coding-quiz",
     "pageUrl": "https://abdalla-diaai.github.io/coding-quiz/",
-    "image": "../../src/assets/coding-quiz.gif"
+    "image": "../../src/assets/coding-quiz.png"
   }
 ]
