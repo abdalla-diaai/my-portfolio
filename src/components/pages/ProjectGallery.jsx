@@ -6,28 +6,16 @@ import Footer from "../Footer";
 export default function ProjectGallery() {
   return (
     <div className="container" id="projects-container">
-        <h3 id="project-heading">Project Examples</h3>
-      <Project
-        title={projects[0].title}
-        description={projects[0].description}
-        repoUrl={projects[0].repoUrl}
-        pageUrl={projects[0].pageUrl}
-        image={projects[0].image}
-      />
-      <Project
-        title={projects[1].title}
-        description={projects[1].description}
-        repoUrl={projects[1].repoUrl}
-        pageUrl={projects[1].pageUrl}
-        image={projects[1].image}
-      />
-      <Project
-        title={projects[2].title}
-        description={projects[2].description}
-        repoUrl={projects[2].repoUrl}
-        pageUrl={projects[2].pageUrl}
-        image={projects[2].image}
-      />
+      <h3 id="project-heading">Project Examples</h3>
+      {projects.map((project) => (
+        <Project
+          title={project.title}
+          image={project.image}
+          description={project.description}
+          repoUrl={project.repoUrl}
+          pageUrl={project.pageUrl}
+        />
+      ))}
       <Footer />
     </div>
   );
