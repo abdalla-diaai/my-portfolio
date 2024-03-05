@@ -30,7 +30,7 @@
   NA
   
   ## Credit
-  PDF viewer component to view resume was adapted from [this article.](https://dhrubot.medium.com/displaying-pdf-in-react-383540a30a26)
+  [PDF viewer component](./src/components/PDFViewer.jsx) to view resume was adapted from [this article.](https://dhrubot.medium.com/displaying-pdf-in-react-383540a30a26)
 
 
   ## Questions
