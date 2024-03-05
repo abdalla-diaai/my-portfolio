@@ -7,6 +7,7 @@
   * [License](#License)
   * [Contribution](#Contributing)
   * [Test](#test)
+  * [Credit](#Credit)
   * [Questions](#questions)
 
   ## Description 
@@ -28,6 +29,10 @@
   ## Test
   NA
   
+  ## Credit
+  PDF viewer component to view resume was adapted from [this article.](https://dhrubot.medium.com/displaying-pdf-in-react-383540a30a26)
+
+
   ## Questions
   Check my GitHub profile or get in touch if you have any questions by clicking on contact link below to send me an email. 
 
