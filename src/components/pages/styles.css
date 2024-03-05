@@ -96,3 +96,7 @@ b {
   height: min-content;
   inset: 300px !important;
 }
+
+.modal-body {
+    margin-block-end: 10px;
+}

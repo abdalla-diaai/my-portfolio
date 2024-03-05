@@ -90,7 +90,7 @@ export default function Contact() {
       </form>
       <Modal isOpen={open} id="modal-box">
         <div className="modal-body">
-          <h3>I will read your message carefully and get back to you within 48 hours.</h3>
+          <em>I will read your message carefully and get back to you within 48 hours.</em>
         </div>
         <button className="btn btn-dark btn-sm home-btn" onClick={handleClose}>
           Close
