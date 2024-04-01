@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
+    "title": "Network",
+    "description": "A social network app built by Django to make, like and comment on posts as well as following other users.",
+    "repoUrl": "https://github.com/abdalla-diaai/network",
+    "pageUrl": "http://abdalladiaai.pythonanywhere.com",
+    "image": "/Network_screencast.mp4"
+  },
+  {
+    "id": 2,
+    "title": "Roama",
+    "description": "A simple social networking app built by React to make posts, search for friends and like and comment on posts. There is also a translator API to a wide range of languages.",
+    "repoUrl": "https://github.com/amilou86/Roama",
+    "pageUrl": "https://roama.netlify.app/",
+    "image": "/roama_screencast.png"
+  },
+  {
+    "id": 3,
     "title": "CalEvent",
     "description": "An app to search event types based on user input. Including a suggested events feature, google search feature and extra joke generator for fun.",
     "repoUrl": "https://github.com/abdalla-diaai/calevent",
@@ -8,7 +24,7 @@
     "image": "https://api.apify.com/v2/key-value-stores/hQxBDhqBfMtbO2a04/records/abdalla-diaai.github.io-scroll_original"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Weather Dashboard",
     "description": "A simple weather dashboard app to fetch 5 day weather forecast from open weather API.",
     "repoUrl": "https://github.com/abdalla-diaai/open-weather-dashboard",
@@ -16,7 +32,7 @@
     "image": "/weather.gif"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Coding Quiz",
     "description": "A simple coding quiz app where the user is presented with code related questions that need to be answered with in the time limit.",
     "repoUrl": "https://github.com/abdalla-diaai/coding-quiz",

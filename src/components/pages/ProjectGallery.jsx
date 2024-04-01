@@ -2,8 +2,6 @@ import React from "react";
 import Project from "./Project";
 import projects from "../utils/projects.json";
 import Footer from "../Footer";
-import weather from "../../assets/weather.gif";
-import quiz from "../../assets/coding-quiz.gif";
 
 export default function ProjectGallery() {
   return (
